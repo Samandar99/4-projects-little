@@ -1,0 +1,23 @@
+.AnswerModal {
+    width: 430px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #fff;
+    margin: 2rem auto;
+    padding-top: 2rem;
+    text-align: center;
+}
+
+.answerText {
+    font-weight: 700;
+}
+
+.fon1 {
+    width: 220px;
+    height: 40px;
+    border-radius: 15px;
+    border: none;
+    color: #fff;
+    background-color: rgb(232, 31, 155);
+    cursor: pointer;
+}

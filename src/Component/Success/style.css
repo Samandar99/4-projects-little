@@ -1,0 +1,79 @@
+.S-wrap {
+  width: 400px;
+  height: 400px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10rem;
+}
+
+.block {
+  width: 280px;
+  height: 250px;
+  /* background-color: red; */
+  text-align: center;
+  margin-top: 1rem;
+  animation: my 0.5s ease-in;
+}
+
+@keyframes my {
+  0% {
+    transform: scale(0.9);
+  }
+
+  75% {
+    transform: scale(1.1);
+  }
+
+  100% {
+    transform: scale(1);
+  }
+
+
+
+
+}
+
+
+
+
+
+
+.success-icon {
+  width: 100px;
+  height: 100px;
+  background-color: rgb(9, 164, 9);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.check {
+  width: 70px;
+  height: 70px;
+  color: #fff;
+}
+
+.suc {
+  margin-top: 7px;
+  display: inline-block;
+}
+
+.text-and {
+  color: rgb(62, 61, 61);
+}
+
+.back {
+  background-color: rgb(243, 109, 42);
+  border: none;
+  color: #fff;
+  padding: 1rem 4rem;
+  border-radius: 8px;
+  box-shadow: rgba(243, 109, 42) 0px 2px 5px -1px, rgba(243, 109, 42) 0px 1px 3px -1px;
+  cursor: pointer;
+}

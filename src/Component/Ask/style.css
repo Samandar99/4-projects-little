@@ -1,0 +1,67 @@
+.ask-wrap{
+    width: 430px;
+    height: 300px;
+    border-radius: 15px;
+    background-color: #fff;
+    
+    padding-top: 2rem;
+  
+    margin: 4rem auto;
+   
+}
+
+.draw{
+    width: 90%;
+    height: 14px;
+    background-color: silver;
+    border-radius: 9px;
+    margin: auto;    
+}
+.color{
+    width: 0;
+    height: 100%;
+    background-image: linear-gradient(to right, rgb(15, 223, 88), rgb(24, 190, 231));
+    border-radius: 9px;
+    
+}
+
+
+
+
+
+.title{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    margin-left: 1.4rem;
+   margin-top: 1rem;
+}
+
+.title{
+    font-size: 25px;
+    margin-bottom: 7px;
+}
+
+.boxButton{
+    display: flex;
+    flex-direction: column; 
+}
+
+
+
+.btn{
+    text-align: left;
+    width: 90%;
+    height: 50px;
+    margin-top: 8px;
+    margin-left: 1.4rem;
+    background-color: Transparent;
+    border: 1px solid silver;
+    border-radius: 13px;
+    transition: all 0.5s ease;
+    padding-left: 1rem;
+}
+
+.btn:hover{
+    border: 1.5px solid silver;
+    cursor: pointer;
+}
